@@ -1,20 +1,20 @@
 menu = """
-======================👉Banco👈=====================
+=======================Banco======================
 
-                 🏧Sistema de banco🏧
+                 Sistema de banco
 
-                  Digite uma opição:
+                 Digite uma opição:
 
-      👉[1] Deposito
+      => [1] Deposito
 
-      👉[2] Saque
+      => [2] Saque
 
-      👉[3] Extrato
+      => [3] Extrato
 
-      👉[4] Sair
+      => [4] Sair
 
 
-======================👉Banco👈=====================
+=======================Banco======================
 """
 
 saldo            = 0
