@@ -62,12 +62,3 @@ print(f'Seja bem vindo ao sistema {cliente["nome"]}')
 #     ("Melaine", "melaine@gmail.com"),
 # ]
 # inserir_muitos(conexao, cursor, dados)
-
-# Atualiza o cliente "Guilherme" para "Daniel"
-cursor.execute("SELECT id FROM clientes WHERE nome = ?", ("elisa",))
-row = cursor.fetchone()
-if row:
-    atualizar_registro(conexao, cursor, "Elisa Estrela", "lisa@gmail.com", row["id"])
-    print("Cliente atualizado com sucesso!")
-else:
-    print("Cliente 'eliza' não encontrado.")
